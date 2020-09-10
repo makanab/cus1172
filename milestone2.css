@@ -15,3 +15,8 @@ form{
   opacity: 0.2;
 }
 
+div.border{
+  border-style: solid;
+  background-color: #ff1a55;
+  border-color: #000080
+}
