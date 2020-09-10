@@ -47,3 +47,9 @@ a{
   color: #ff1a55;
   font-weight: bold;
 }
+
+@media printer{
+  body{
+    background-color: lightblue;
+  }
+}
