@@ -33,3 +33,7 @@ li{
 p{
   color: #800000;
 }
+
+img{
+  border-radius: 50%;
+}
