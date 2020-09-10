@@ -37,3 +37,8 @@ p{
 #image{
   border-radius: 50%;
 }
+
+a{
+  color: #ff1a55;
+  font-weight: bold;
+}
