@@ -20,3 +20,13 @@ div.border{
   background-color: #ff1a55;
   border-color: #000080
 }
+
+ul{
+  list-style-position: inside;
+  list-style-stype: square;
+}
+
+li{
+  color: #000080;
+}
+
