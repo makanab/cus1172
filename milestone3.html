@@ -29,22 +29,29 @@ padding: 8px;
 </head>
 
 <body>
+<div class="container pt-3">
 <h1>WELCOME TO MY WEBSITE</h1>
-<img id="image1" src="chibi.jpg" alt="Chibi Tayseer" style="width:250px">
+</div>
 
-<div class="border">
+<div class="container">
+<img id="image1" src="chibi.jpg" class="img-thumbnail mx-auto d-block" alt="Chibi Tayseer" style="width:250px">
+</div>
+<p>I don't have a proper profile picture, so enjoy this chibi portrait my friend drew for me.</p>
+
+
+<div class="border container pt-3">
 <h2>Directory</h2>
 </div>
-<p><a href="#basic">Basic Information</a></p>
-<p><a href="#education">Education</a></p>
-<p><a href="#work">Work/Internship Experience</a></p>
-<p><a href="#programming">Programming Skills</a></p>
-<p><a href="#hobbies">Hobbies/Interests</a></p>
-<p><a href="#entertainment">Entertainment</a></p>
-<p><a href="#websites">Websites I Like</a></p>
-<p><a href="#projects">Projects I've Completed For CUS1172</a></p>
+<a href="#basic"><button type="button" class="btn btn-outline-dark">Basic Info</button></a>
+<a href="#education"><button type="button" class="btn btn-outline-dark">Education</button></a>
+<a href="#work"><button type="button" class="btn btn-outline-dark">Internship</button></a>
+<a href="#programming"><button type="button" class="btn btn-outline-dark">Coding</button></a>
+<a href="#hobbies"><button type="button" class="btn btn-outline-dark">Hobbies</button></a>
+<a href="#entertainment"><button type="button" class="btn btn-outline-dark">Entertainment</button></a>
+<a href="#websites"><button type="button" class="btn btn-outline-dark">Websites I Like</button></a>
+<a href="#projects"><button type="button" class="btn btn-outline-dark">Projects For CUS1172</button></a>
 
-<div class="border">
+<div class="border container pt-3">
 <h2 id="basic">Basic Information</h2>
 </div>
 
@@ -75,38 +82,50 @@ padding: 8px;
 </tr>
 </table>
 
-<div class="border">
+<div class="row">
+<div class="col-sm-3">
+<div class="border container pt-3">
 <h2 id="education">Education</h2>
 </div>
 <ul>
 <li>High School diploma (June 2017)</li>   
 <li>Bachelor's degree in Computer Science (May 2021)</li>
 </ul>
-
-<div class="border">
-<h2 id="work">Work/Internship Experience</h2>
 </div>
-<p>As of right now, my only work/internship experience is an online software engineering demo program for JPMorgan Chase</p>
 
-<div class="border">
-<h2 id="programming">Programming Skills</h2>
+<div class="col-sm-3">
+<div class="border container pt-3">
+<h2 id="work">Internship</h2>
+</div>
+<ul>
+<li>Online software engineering demo program with JPMorgan Chase</li>
+</ul>
+</div>
+
+<div class="col-sm-3">
+<div class="border container pt-3">
+<h2 id="programming">Coding</h2>
 </div>
 <ul>
 <li>Java: Decent</li>
 <li>Python: Beginner</li>
 <li>HTML/CSS: Beginner</li>
 </ul>
+</div>
 
-<div class="border">
-<h2 id="hobbies">Hobbies/Interests</h2>
+<div class="col-sm-3">
+<div class="border container pt-3">
+<h2 id="hobbies">Hobbies</h2>
 </div>
 <ul>
-<li>Playing the bass guitar</li>
-<li>Producing electronic music</li>
-<li>Street photography using a Nikon 35mm film camera</li>
+<li>Bass guitar</li>
+<li>Electronic music production</li>
+<li>Street photography</li>
 </ul>
+</div>
+</div>
 
-<div class="border">
+<div class="border container pt-3">
 <h2 id="entertainment">Entertainment</h2>
 </div>
 <p>Favorite TV Shows</p>
@@ -133,26 +152,28 @@ padding: 8px;
 <iframe width="300" height="200" src="https://www.youtube.com/embed/FsPKLznJXMk">
 </iframe>
 
-<div class="border">
+<div class="border container pt-3">
 <h2 id="websites">Websites I Like</h2>
 </div>
 <a href="https://nurtu.re" target="_blank">Nurture</a> 
 <p>This website was created by electronic producer Porter Robinson to coincide with his second studio album, Nurture. Here, users can access different worlds based on the album's singles. Additionally, different users can randomly connect with each other to explore these worlds together.</p>
-<a href="https://dreamx3.com/" target="_blank">DreamX3</a> 
-<a href="https://daedalus.world/" target="_blank">Daedalus Production</a>
+<p><a href="https://dreamx3.com/" target="_blank">DreamX3</a></p> 
+<p><a href="https://daedalus.world/" target="_blank">Daedalus Production</a></p>
 <p>These two websites, among many others, were created by French electronic producer, Madeon, to go along with the ARG campaign for his second studio album, Good Faith. These cryptic websites contain many different codes that fans put together to solve whatever puzzles he laid out for them.</p>
 
 
-<div class="border">
+<div class="border container pt-3">
 <h2 id="projects">Projects I've Completed For CUS1172</h2>
 </div>
 <p><a href="https://github.com/TayseerRahman/cus1172" target="_blank">My Github repository</a></p>
 <p><a href="https://tayseerrahman.github.io/cus1172/project1.html" target="_blank">Project 1 - Milestone 1</a></p>
 <p><a href="https://tayseerrahman.github.io/cus1172/milestone2.html" target="_blank">Project 1 - Milestone 2</a></p>
+<p><a href="https://tayseerrahman.github.io/cus1172/milestone3.html" target="_blank">Project 1 - Milestone 3</a></p>
 
-<form>
-<label for="rate">THE PRINCE WILL LEAD US TO</label><br>
-<input type="text" id="12122017" name="12122017" value="CELINE"><br>
+<form class="form-inline" action="https://tayseerrahman.github.io/cus1172/milestone3.html">
+<label for="rate">Rate my website from 1-10: </label><br>
+<input type="text" id="rate" name="rate" value="10"><br>
+<button type="submit" class="btn btn-danger mb-2">Submit</button>
 </form>
 
 <p>
