@@ -3,17 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="project2.css">
-  
-<title>Task Manager</title>
+<link href="project2.css">
 </head>
-
+  
 <body>
 <h1>WELCOME TO THE TASK MANAGER</h1>
     
@@ -23,12 +15,12 @@
 </p>
 
 <p>      
-<span onclick="newElement()" class="addBtn">Add new task</span>
+<span onclick="element()" class="addButton">Add new task</span>
 </p>
 </div>
 
-<ul id="myUL">
-  <li class="checked">Submit project 2</li>
+<ul id="taskList">
+  <li class="completed">Submit project 2</li>
   <li>Study for midterms</li>
   <li>Mail in my ballot</li>
   <li>Buy new conditioner</li>
@@ -37,6 +29,4 @@
 <script src="project2.js"></script>
 
 </body>
-</html>
-  
 </html>
