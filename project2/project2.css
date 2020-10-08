@@ -102,8 +102,6 @@ input {
   background-color: #44f1c1;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.image {
+  text-align: center;
 }
