@@ -101,3 +101,9 @@ input {
 .addButton:hover {
   background-color: #44f1c1;
 }
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
